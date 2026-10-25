@@ -44,6 +44,14 @@ OnePlusKey 通过 Hook 系统框架里的侧键监听逻辑，拦截侧键事件
 
 <img src="Screenshots/gesture-editor.jpg" width="280" alt="编辑页：动作、震动反馈、息屏行为与连击间隔">
 
+## 测试环境
+| 项目 | 版本 |
+|---|---|
+| 设备 | 一加 13T（PKX110） |
+| 系统 | ColorOS PKX110_17.0.0.104(CN01B110P02)（Android 17） |
+| Root | [Magisk 30.7](https://github.com/topjohnwu/Magisk/releases/tag/v30.7) |
+| Xposed 框架 | [Vector v2.2](https://github.com/JingMatrix/Vector/releases/tag/v2.2) |
+| Google App | [Google 17.68.20.ve.arm64](https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox) |
 ## 致谢
 - [OplusKeyHook](https://github.com/siowu/OplusKeyHook)：侧键拦截思路
 - [Eta](https://github.com/Mangi-11/Eta)：测试时使用的自定义数字助理
