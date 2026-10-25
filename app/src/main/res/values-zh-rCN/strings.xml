@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">OnePlusKey</string>
+    <string name="xposed_description">自定义一加侧键：单击 / 双击 / 长按，分别映射到 ColorOS 快捷键功能、即圈即搜、语音助理、Gemini、Intent / Activity 或 Shell 命令。</string>
+
+    <string name="module_active">模块已生效</string>
+    <string name="module_active_desc">框架：%1$s</string>
+    <string name="module_inactive">模块未生效</string>
+    <string name="module_inactive_desc">请在 Xposed 管理器中启用 OnePlusKey 并重启一次。</string>
+
+    <string name="master_enable">启用侧键自定义</string>
+    <string name="master_enable_desc">所有手势的总开关。</string>
+
+    <string name="section_gestures">手势</string>
+
+    <string name="gesture_single">单击</string>
+    <string name="gesture_double">双击</string>
+    <string name="gesture_long">长按</string>
+
+    <string name="action_none">不执行</string>
+    <string name="action_native">跟随系统快捷键设置</string>
+    <string name="action_circle_to_search">即圈即搜</string>
+    <string name="action_assistant">数字助理</string>
+    <string name="action_gemini">Gemini</string>
+    <string name="action_launch_app">打开应用</string>
+    <string name="action_activity">打开 Activity</string>
+    <string name="action_intent">发送 Intent</string>
+    <string name="action_shell">Shell 命令</string>
+
+    <string name="label_action">动作</string>
+    <string name="label_app">应用</string>
+    <string name="label_package">包名</string>
+    <string name="label_class">类名</string>
+    <string name="label_intent_target">Intent 目标</string>
+    <string name="label_intent_action">Action</string>
+    <string name="label_intent_data">Data URI</string>
+    <string name="label_intent_extras">附加项（JSON）</string>
+    <string name="label_command">命令</string>
+    <string name="label_run_as_root">以 root 运行</string>
+    <string name="label_vibrate">震动反馈</string>
+    <string name="label_screen_off">息屏时</string>
+
+    <string name="target_activity">启动 Activity</string>
+    <string name="target_broadcast">发送广播</string>
+    <string name="target_service">启动服务</string>
+    <string name="target_foreground_service">启动前台服务</string>
+
+    <string name="screen_off_ignore">不执行</string>
+    <string name="screen_off_wake">亮屏后执行</string>
+    <string name="screen_off_silent">不亮屏直接执行</string>
+
+    <string name="setting_long_press">长按时长</string>
+    <string name="setting_multi_tap">连击间隔</string>
+    <string name="ms_format">%1$d 毫秒</string>
+
+    <string name="pick_app">选择应用</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="back">返回</string>
+    <string name="action_coloros">ColorOS 快捷键功能</string>
+    <string name="label_coloros_function">功能</string>
+    <string name="coloros_flash_memory">一键闪记</string>
+    <string name="coloros_ring_mode">声音与振动</string>
+    <string name="coloros_no_disturb">免打扰</string>
+    <string name="coloros_camera">相机</string>
+    <string name="coloros_ocrscanner">AI 拍一拍</string>
+    <string name="coloros_flash_light">手电筒</string>
+    <string name="coloros_recording">录音</string>
+    <string name="coloros_translate">翻译</string>
+    <string name="coloros_screen_shot">截屏</string>
+    <string name="coloros_hint">调用 ColorOS 自带的功能实现。</string>
+    <string name="native_hint">执行系统「快捷键」设置里当前选择的功能。</string>
+    <string name="action_google_lens">Google 智能镜头</string>
+    <string name="assistant_settings">系统数字助理</string>
+    <string name="assistant_settings_desc">跳转到系统设置，选择默认数字助理应用。</string>
+</resources>

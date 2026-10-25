@@ -1,0 +1,21 @@
+name: onepluskey
+
+services:
+  apk:
+    build: docker
+    image: onepluskey-builder
+    network_mode: bridge
+    volumes:
+      - .:/src:ro
+      - ./output:/output
+      - gradle:/root/.gradle
+      - keys:/keys
+    environment:
+      - KEYSTORE_PASSWORD
+      - KEY_PASSWORD
+
+volumes:
+  gradle:
+    name: onepluskey-gradle
+  keys:
+    name: onepluskey-keys

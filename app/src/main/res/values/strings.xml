@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">OnePlusKey</string>
+    <string name="xposed_description">Customize the OnePlus side key: single tap, double tap and long press, each mapped to a ColorOS shortcut function, Circle to Search, the assistant, Gemini, an Intent / Activity, or a shell command.</string>
+
+    <string name="module_active">Module active</string>
+    <string name="module_active_desc">Framework: %1$s</string>
+    <string name="module_inactive">Module not active</string>
+    <string name="module_inactive_desc">Enable OnePlusKey in your Xposed manager and reboot once.</string>
+
+    <string name="master_enable">Enable side key customization</string>
+    <string name="master_enable_desc">Master switch for all gestures.</string>
+
+    <string name="section_gestures">Gestures</string>
+
+    <string name="gesture_single">Single tap</string>
+    <string name="gesture_double">Double tap</string>
+    <string name="gesture_long">Long press</string>
+
+    <string name="action_none">Do nothing</string>
+    <string name="action_native">Follow system Shortcut button setting</string>
+    <string name="action_circle_to_search">Circle to Search</string>
+    <string name="action_assistant">Digital assistant</string>
+    <string name="action_gemini">Gemini</string>
+    <string name="action_launch_app">Open app</string>
+    <string name="action_activity">Open Activity</string>
+    <string name="action_intent">Send Intent</string>
+    <string name="action_shell">Shell command</string>
+
+    <string name="label_action">Action</string>
+    <string name="label_app">App</string>
+    <string name="label_package">Package name</string>
+    <string name="label_class">Class name</string>
+    <string name="label_intent_target">Intent target</string>
+    <string name="label_intent_action">Action</string>
+    <string name="label_intent_data">Data URI</string>
+    <string name="label_intent_extras">Extras (JSON)</string>
+    <string name="label_command">Command</string>
+    <string name="label_run_as_root">Run as root</string>
+    <string name="label_vibrate">Vibrate</string>
+    <string name="label_screen_off">When screen is off</string>
+
+    <string name="target_activity">Start activity</string>
+    <string name="target_broadcast">Send broadcast</string>
+    <string name="target_service">Start service</string>
+    <string name="target_foreground_service">Start foreground service</string>
+
+    <string name="screen_off_ignore">Do nothing</string>
+    <string name="screen_off_wake">Wake screen, then run</string>
+    <string name="screen_off_silent">Run without waking</string>
+
+    <string name="setting_long_press">Long press duration</string>
+    <string name="setting_multi_tap">Multi-tap window</string>
+    <string name="ms_format">%1$d ms</string>
+
+    <string name="pick_app">Select an app</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="action_coloros">ColorOS shortcut function</string>
+    <string name="label_coloros_function">Function</string>
+    <string name="coloros_flash_memory">MemoClip</string>
+    <string name="coloros_ring_mode">Sound &amp; vibration</string>
+    <string name="coloros_no_disturb">Do Not Disturb</string>
+    <string name="coloros_camera">Camera</string>
+    <string name="coloros_ocrscanner">AI Scan</string>
+    <string name="coloros_flash_light">Flashlight</string>
+    <string name="coloros_recording">Recorder</string>
+    <string name="coloros_translate">Translate</string>
+    <string name="coloros_screen_shot">Screenshot</string>
+    <string name="coloros_hint">Runs ColorOS\'s own implementation of this function.</string>
+    <string name="native_hint">Runs whatever is selected in Settings › Shortcut button.</string>
+    <string name="action_google_lens">Google Lens</string>
+    <string name="assistant_settings">System digital assistant</string>
+    <string name="assistant_settings_desc">Open system settings to choose the default digital assistant app.</string>
+</resources>
